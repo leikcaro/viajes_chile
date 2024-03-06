@@ -179,7 +179,7 @@
               <label for="exampleInputEmail1" class="form-label">Mensaje:</label>
               <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
               <br>
-            <button type="submit" class="btn btn-primary">Enviar</button>
+            <button type="submit" id="btn" class="btn btn-primary" data-bs-toggle="tooltip" data-bs-placement="bottom" data-bs-title="Presiona para enviar tu correo">Enviar</button>
         </form>
     </section>
 
@@ -227,22 +227,10 @@
     <script>
       //boton de enviar correo
       $(document).ready(function() {
-        $('#enviarCorreo').click(function() {
+        $('#btn').click(function() {
           alert('El correo fue enviado correctamente...');
         });
-      });
-      //cambiar color a ingredientes y preparacion
-      $("#prep").dblclick(function() {
-        $(this).css('color', 'red');
-    });
-    $("#ingred").dblclick(function() {
-      $(this).css('color', 'red');
-    });  
-      $(".card").click(function() {
-        $(this).hide("fast");
-      });  
-      $("#carr").click(function() { //no me funciono la idea
-        $(this).hide("fast");
+
       
   });
     
