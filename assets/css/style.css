@@ -14,6 +14,7 @@
 body {
     background-color: black;
     color: white;
+    
 }
 hr {
     color: grey;
@@ -24,7 +25,7 @@ hr {
     justify-content: center;
     align-items: center;
     width: 100%;
-  }
+}
 
 .turq {
     background-color: turquoise;
@@ -44,4 +45,4 @@ footer {
     background-color: turquoise; /* Cambia al color que prefieras */
     margin-right: 0.5rem; /* Añade margen a la derecha de cada ícono */
     border-radius: 5px; /* Opcional: añade bordes redondeados al contenedor del ícono */
-  }
+}
