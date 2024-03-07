@@ -46,3 +46,8 @@ footer {
     margin-right: 0.5rem; /* Añade margen a la derecha de cada ícono */
     border-radius: 5px; /* Opcional: añade bordes redondeados al contenedor del ícono */
 }
+
+html {
+    scroll-behavior: smooth;
+}
+  
